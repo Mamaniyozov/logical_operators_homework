@@ -1,3 +1,6 @@
+from ast import Not
+
+
 def main(a):
     """
     Given integer a,  check the following statement "The integer is two-digit number".
@@ -6,4 +9,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return  a//10!=0
+print(main(38))
