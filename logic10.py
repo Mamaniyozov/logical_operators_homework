@@ -9,5 +9,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return  a//10!=0
+    return  a>9 and a<100
 print(main(-38))
