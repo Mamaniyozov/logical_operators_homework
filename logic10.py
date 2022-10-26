@@ -1,4 +1,4 @@
-from ast import Not
+
 
 
 def main(a):
@@ -10,4 +10,4 @@ def main(a):
         bool: answer
     """
     return  a//10!=0
-print(main(38))
+print(main(-38))
