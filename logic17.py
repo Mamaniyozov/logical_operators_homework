@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a//10
+    a//100
+    a//1000
+    a//10000
+print (main(12345))
